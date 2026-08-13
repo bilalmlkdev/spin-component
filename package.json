@@ -1,0 +1,48 @@
+{
+  "name": "spin-component",
+  "version": "0.1.0",
+  "description": "Generate a React component with matching test, story, and barrel file in one command \u2014 no config required, fully configurable when you want it.",
+  "type": "module",
+  "bin": {
+    "spin-component": "./bin/spin-component.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byllzz/spin-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/byllzz/spin-component/issues"
+  },
+  "homepage": "https://github.com/byllzz/spin-component#readme",
+  "author": "byllzz",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "react",
+    "cli",
+    "scaffold",
+    "generator",
+    "component",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "cosmiconfig": "^9.0.0",
+    "fs-extra": "^11.2.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.5"
+  }
+}

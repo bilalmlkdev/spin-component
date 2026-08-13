@@ -1,0 +1,8 @@
+{
+  "dir": "src/components",
+  "style": "css-modules",
+  "lang": "ts",
+  "test": true,
+  "story": true,
+  "index": true
+}
