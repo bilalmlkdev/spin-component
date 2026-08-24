@@ -1,6 +1,6 @@
 # spin-component
 
-Generate a React component with a matching test, story, and barrel export —
+Generate a React component with a matching test, story, and barrel export -
 in one command, with zero config to start.
 
 ![demo](./demo.gif)
@@ -31,7 +31,7 @@ at once, matching whatever conventions your team already uses.
 
 ## Install
 
-You don't need to install anything to try it — `npx spin-component <Name>`
+You don't need to install anything to try it - `npx spin-component <Name>`
 works standalone. To use it as a project dependency:
 
 ```bash
@@ -60,7 +60,7 @@ spin-component Button --yes               # never prompt; fail if name is missin
 ```
 
 Re-running the command for an existing component never overwrites files you've
-already hand-edited — it skips anything that already exists and tells you so.
+already hand-edited - it skips anything that already exists and tells you so.
 
 ## Configuration
 
@@ -103,12 +103,12 @@ src/components/Card/
 ```
 
 If `src/components/index.ts` already exists as a top-level barrel, its
-export line is appended automatically — it's never created from scratch,
+export line is appended automatically - it's never created from scratch,
 since that's a structural choice your project should make deliberately.
 
 ## Contributing
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) — there are several good-first-issue
+See [CONTRIBUTING.md](./CONTRIBUTING.md) - there are several good-first-issue
 sized additions (new style templates, a `--dry-run` flag, framework support
 beyond React) already scoped out.
 
