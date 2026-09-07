@@ -1,20 +1,20 @@
 {
   "name": "spin-component",
   "version": "0.1.0",
-  "description": "Generate a React component with matching test, story, and barrel file in one command \u2014 no config required, fully configurable when you want it.",
+  "description": "Generate a React component with matching test, story, and barrel file in one command — no config required, fully configurable when you want it.",
   "type": "module",
   "bin": {
-    "spin-component": "./bin/spin-component.js"
+    "spin-component": "./spin-component.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/byllzz/spin-component.git"
+    "url": "git+https://github.com/bilalmlkdev/spin-component.git"
   },
   "bugs": {
-    "url": "https://github.com/byllzz/spin-component/issues"
+    "url": "https://github.com/bilalmlkdev/spin-component/issues"
   },
-  "homepage": "https://github.com/byllzz/spin-component#readme",
-  "author": "byllzz",
+  "homepage": "https://github.com/bilalmlkdev/spin-component#readme",
+  "author": "Bilal Malik",
   "files": [
     "bin",
     "src"

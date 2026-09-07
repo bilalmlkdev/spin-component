@@ -6,12 +6,10 @@ so most contributions are self-contained.
 ## Setup
 
 ```bash
-git clone https://github.com/byllzz/spin-component.git
+git clone https://github.com/bilalmlkdev/spin-component.git
 cd spin-component
 npm install
 npm test
-```
-
 Try the CLI against a scratch folder while developing:
 
 ```bash
